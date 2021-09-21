@@ -16,7 +16,7 @@ public class SpringbootAzureDemoApplication {
 	@GetMapping(value = "/message")
 	public String message()
 	{
-		return "Your 1st Application deployed in azure";
+		return "Hi Subhash, Your 1st azure Application deployed in azure";
 	}
 
 }
